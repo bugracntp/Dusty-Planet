@@ -106,11 +106,14 @@ body {
     border-radius: 50%;
 }
 /*resimle ilgili kısım*/
+h1{
+    width: 1000px;
+}
 .mars {
     position: absolute;
     width: 340px;
     height: 340px;
-     background: url("/img/mars.jpg"); 
+     background: url("/img/mars2.jpg"); 
     border-radius: 50%;
     background-size: cover;
     box-shadow: inset 0 0 20px #ff5722,

@@ -1,0 +1,23 @@
+{
+  "name": "dusty-planet",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "mars api projet",
+  "main": "./js/collectors/wCollector.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bugracntp/Dusty-Planet.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bugracntp/Dusty-Planet/issues"
+  },
+  "homepage": "https://github.com/bugracntp/Dusty-Planet#readme",
+  "dependencies": {
+    "node-fetch": "^3.2.10"
+  }
+}
