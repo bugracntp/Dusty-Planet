@@ -1,7 +1,6 @@
 {
   "name": "dusty-planet",
   "version": "1.0.0",
-  "type": "module",
   "description": "mars api projet",
   "main": "./js/collectors/wCollector.js",
   "scripts": {
@@ -18,6 +17,7 @@
   },
   "homepage": "https://github.com/bugracntp/Dusty-Planet#readme",
   "dependencies": {
+    "mongoose": "^6.7.1",
     "node-fetch": "^3.2.10"
   }
 }
