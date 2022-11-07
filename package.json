@@ -4,7 +4,10 @@
   "description": "mars api projet",
   "main": "./js/collectors/wCollector.js",
   "scripts": {
-    "test": "npm start"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "repository": {
     "type": "git",
@@ -17,6 +20,7 @@
   },
   "homepage": "https://github.com/bugracntp/Dusty-Planet#readme",
   "dependencies": {
+    "create-react-app": "^1.5.2",
     "mongoose": "^6.7.1",
     "node-fetch": "^3.2.10"
   }
