@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/bugracntp/Dusty-Planet#readme",
   "dependencies": {
-    "node-fetch": "^3.2.10"
+    "create-react-app": "^5.0.1",
+    "node-fetch": "^3.2.10",
+    "react": "^18.2.0"
   }
 }
