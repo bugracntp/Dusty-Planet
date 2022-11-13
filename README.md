@@ -1,14 +1,16 @@
 - Diagramlar
 
-- Use case Diagramı.
+- Class Diagramı.
 
-![image](https://user-images.githubusercontent.com/66384957/201542251-832f9945-e4b1-4c8d-9ccb-ea45ccd62c47.png)
+![image](https://user-images.githubusercontent.com/66384957/201544726-d58f90c5-8ff8-4c0e-a0bb-76ff48058d95.png)
 
 - ER Diagramı.
 
 ![ERimage](https://user-images.githubusercontent.com/95681404/201542433-234c49db-f465-4bbf-8f15-584a30bef04b.jpg)
 
+- Use case Diagramı.
 
+![image](https://user-images.githubusercontent.com/66384957/201542251-832f9945-e4b1-4c8d-9ccb-ea45ccd62c47.png)
 
 
 # Getting Started with Create React App
