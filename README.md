@@ -1,5 +1,7 @@
-- Diagramlar
-![image](https://user-images.githubusercontent.com/66384957/201542251-832f9945-e4b1-4c8d-9ccb-ea45ccd62c47.png)
+- **Diagramlar
+
+
+**![image](https://user-images.githubusercontent.com/66384957/201542251-832f9945-e4b1-4c8d-9ccb-ea45ccd62c47.png)
 
 
 
