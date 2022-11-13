@@ -4,7 +4,7 @@
 
 ![image](https://user-images.githubusercontent.com/66384957/201542251-832f9945-e4b1-4c8d-9ccb-ea45ccd62c47.png)
 
--ER Diagramı.
+- ER Diagramı.
 
 ![ERimage](https://user-images.githubusercontent.com/95681404/201542433-234c49db-f465-4bbf-8f15-584a30bef04b.jpg)
 
