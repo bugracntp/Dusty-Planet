@@ -1,4 +1,4 @@
-- **Diagramlar
+- Diagramlar
 
 - Use case Diagramı.
 
