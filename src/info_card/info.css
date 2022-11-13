@@ -35,7 +35,7 @@
 h1, h2, h3 {
   line-height: 1;
   color: white;
-  
+ 
 }
 .main-title {
     font-size: var(--fs-h1);
@@ -76,7 +76,7 @@ color: wheat;
 margin-bottom: -100px;
 }
 .temp{
-    grid-column: 2/3;
+    grid-column: 2/2;
     color: wheat;
    
 }
@@ -86,7 +86,7 @@ margin-bottom: -100px;
 }
 
 .info{
-    grid-column: 1 /3;
+    grid-column: 1 /4;
     color: wheat;
     font-size: 15px;
 }

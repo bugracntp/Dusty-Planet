@@ -6,9 +6,10 @@ export default function Info() {
         <h1 className="main-title">
             MARS HAVA DURUMU
         </h1>
+        
         <div className="date">
             <h2 className="section-title section-title--date">SOL 377</h2>
-       <p className="date__day">07 Kasım</p>
+                <p className="date__day">07 Kasım</p>
         </div>
         <div className="temp">
             <h2 className="section-title">SICAKLIK</h2>
@@ -19,10 +20,7 @@ export default function Info() {
             <h2 className="section-title">Basınç</h2>
             <p className="reading">
                 1018 hPa</p>
-                <div className="wind-direction">
-                    <p></p>
-                    <div className="wind__arrow"></div>
-                </div>
+                
         </div>
         <div className="info">
             <p>Mars'da gönderilmiş ve hali hazırda Mars'ta bulunan rover araçları üzerinden NASA'nın aldığı verileri kullanan bir havadurumu sitesi.</p>
