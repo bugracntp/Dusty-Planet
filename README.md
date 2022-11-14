@@ -12,6 +12,14 @@
 
 ![image](https://user-images.githubusercontent.com/66384957/201542251-832f9945-e4b1-4c8d-9ccb-ea45ccd62c47.png)
 
+- Sequence Diagramı.
+
+![sqq drawio](https://user-images.githubusercontent.com/115504154/201599196-58de5352-f8c1-48df-825b-7a2314f740dd.png)
+
+- Activity Diagramı.
+
+![Activityimage](https://user-images.githubusercontent.com/115504154/201599418-02ad50bc-36f5-4f91-93d5-00da7459f10c.jpeg)
+
 
 # Getting Started with Create React App
 
