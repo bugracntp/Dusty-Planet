@@ -8,6 +8,7 @@ function parseData() {
     .then((data) => {
       for (var i = 0; i <= data.latest_photos.length - 10; i++)
         loadData(data.latest_photos[i]);
+      console.log(data.latest_photos.length)
     });
 }
 function loadData(photoObject) {

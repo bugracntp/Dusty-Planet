@@ -6,7 +6,7 @@ function fetchRoverManifest(rover) {
       response.ok ? response.json() : console.log(response.status)
     )
     .then((responseJSON) => {
-      loadData(responseJSON.photo_manifest);
+      arr.push(loadData(responseJSON.photo_manifest));
     });
 }
 
@@ -24,9 +24,9 @@ function loadData(roverObject) {
     launch_date: launch_date,
     landing_date: landing_date,
     status: status,
-    max_sol: max_sol,
+    max_sol: max_sol.toString(),
     max_date: max_date,
-    total_photos: tphotos,
+    total_photos: tphotos.toString(),
   };
   console.log(rDatas);
 }
