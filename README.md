@@ -1,3 +1,26 @@
+# Diagramlar
+
+- Class Diagramı.
+
+![image](https://user-images.githubusercontent.com/66384957/201544726-d58f90c5-8ff8-4c0e-a0bb-76ff48058d95.png)
+
+- ER Diagramı.
+
+![ERimage](https://user-images.githubusercontent.com/95681404/201542433-234c49db-f465-4bbf-8f15-584a30bef04b.jpg)
+
+- Use case Diagramı.
+
+![image](https://user-images.githubusercontent.com/66384957/201542251-832f9945-e4b1-4c8d-9ccb-ea45ccd62c47.png)
+
+- Sequence Diagramı.
+
+![sqq drawio](https://user-images.githubusercontent.com/115504154/201599196-58de5352-f8c1-48df-825b-7a2314f740dd.png)
+
+- Activity Diagramı.
+
+![Activityimage](https://user-images.githubusercontent.com/115504154/201599418-02ad50bc-36f5-4f91-93d5-00da7459f10c.jpeg)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

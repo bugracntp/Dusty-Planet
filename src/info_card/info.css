@@ -1,0 +1,100 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+:root {
+    --fw-light: 300;
+    --fw-normal: 400;
+    --fw-semi: 500;
+    --fw-bold: 700;
+    --fs-h1: 1rem;
+    --fs-h2: 0.75rem;
+    --fs-body: 1.0rem;
+    --fs-xl: 1.75rem;
+    --clr-light: #fff;
+    --clr-gray: #989898;
+    --clr-dark: #444;
+    --clr-accent: #D06D6D;
+    --clr-accent-dark: #613131;
+  }
+
+  .sr-only:not(:focus):not(:active) {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }
+
+ 
+h1, h2, h3 {
+  line-height: 1;
+  color: white;
+ 
+}
+.main-title {
+    font-size: var(--fs-h1);
+    font-weight: var(--fw-light);
+    text-transform: uppercase;
+    color: var(--clr-accent);
+    letter-spacing: 4px;
+font-size: 25px;
+    grid-column: 1 / -1;
+    
+  }
+  .section-title {
+    font-size: var(--fs-h2);
+    font-weight: var(--fw-bold);
+    margin: 0;
+    font-size: 20px;
+}
+.section-title--date {
+    font-size: var(--fs-xl);
+    margin-top: -50px;
+}
+
+.mars-current-weather{
+    background-color: rgba(131, 92, 65, 0.7);
+    padding:15px ;
+    margin-top: 55px;
+  margin-left:20px ;
+    max-width: 500px;
+    height:500px ;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 2em;
+    
+}
+.date{
+grid-column: 1 / 2;
+color: wheat;
+margin-bottom: -100px;
+}
+.temp{
+    grid-column: 2/2;
+    color: wheat;
+   
+}
+.pressure{
+    grid-column: 3 / 4;
+    color: wheat;
+}
+
+.info{
+    grid-column: 1 /4;
+    color: wheat;
+    font-size: 15px;
+}
+.unit-toggle{
+    grid-column: 3 / 4;
+    color: wheat;
+}
+.reading{
+    font-size: 14px;
+
+}
