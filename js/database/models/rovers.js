@@ -1,49 +1,36 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
-const weatherSchema = new Schema({
-
-  Sol: {
+const roverSchema = new Schema({
+  name: {
     type: String,
     require: true,
   },
-  date: {
+  launch_date: {
     type: String,
     require: true,
   },
-  highF: {
+  landing_date: {
     type: String,
     require: true,
   },
-  lowF: {
+  status: {
     type: String,
     require: true,
   },
-  highC: {
+  max_sol: {
     type: String,
     require: true,
   },
-  lowC: {
+  max_date: {
     type: String,
     require: true,
   },
-  per: {
+  total_photos: {
     type: String,
     require: true,
   },
-  sr: {
-    type: String,
-    require: true,
-  },
-  ss: {
-    type: String,
-    require: true,
-  },
-  season: {
-    type: String,
-    require: true,
-  }
 });
 
-const Weather = mongoose.model("Weather", weatherSchema);
-module.exports = Weather;
+const rovers = mongoose.model("rovers", roverSchema);
+module.exports = rovers;
