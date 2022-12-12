@@ -1,14 +1,16 @@
-import { MarsWeatherApi } from "./api_urls.js";
+const { MarsWeatherApi } = require("../modules/api_urls");
+const { insertIntoMongoDB } = require("../database/database");
 
-function parseData() {
-  MarsWeatherApi()
-    .then((data) => {
-      return data.json();
+let weathers = [];
+let saveData = async () => {
+  let { data } = await MarsWeatherApi();
+  await Promise.all(
+    await data.soles.map((item) => {
+      weathers.push(loaddata(item));
     })
-    .then((data) => {
-      for (var i = data.soles.length - 10; i >= 0; i--) loaddata(data.soles[i]);
-    });
-}
+  );
+  insertIntoMongoDB(weathers,"weather")
+};
 
 function loaddata(solObject) {
   let sol = solObject.sol;
@@ -58,6 +60,7 @@ function loaddata(solObject) {
     else if (ls > 330 && ls <= 360) return "late summer";
   };
   let wDatas = {
+    _id: solObject.id,
     Sol: sol,
     date: earthMonthDay,
     highF: highFahrenheit.toString(),
@@ -69,7 +72,11 @@ function loaddata(solObject) {
     ss: sunset,
     season: season(season_ls),
   };
-  console.log(wDatas);
+  return wDatas;
 }
 
-parseData();
+saveData();
+
+
+
+/**/

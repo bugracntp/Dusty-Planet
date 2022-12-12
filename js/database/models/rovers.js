@@ -29,7 +29,7 @@ const roverSchema = new Schema({
   total_photos: {
     type: String,
     require: true,
-  },
+  }
 });
 
 const rovers = mongoose.model("rovers", roverSchema);

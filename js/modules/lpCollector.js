@@ -1,33 +1,23 @@
-import { MarsLastPhotosApi } from "./api_urls.js";
+const { MarsLastPhotosApi } = require("../modules/api_urls");
+const { insertIntoMongoDB } = require("../database/database");
 
-function parseData() {
-  MarsLastPhotosApi()
-    .then((data) => {
-      return data.json();
+async function parseData() {
+  let { data } = await MarsLastPhotosApi();
+  await Promise.all(
+    await data.latest_photos.map((item) => {
+      insertIntoMongoDB(loadData(item), "photos");
     })
-    .then((data) => {
-      for (var i = 0; i <= data.latest_photos.length - 10; i++)
-        loadData(data.latest_photos[i]);
-      console.log(data.latest_photos.length)
-    });
+  );
 }
 function loadData(photoObject) {
-  let id = photoObject.id;
-  let sol = photoObject.sol;
-  let camera = photoObject.camera;
-  let src = photoObject.img_src;
-  let date = photoObject.earth_date;
-  let rover = photoObject.rover;
-
-  let pDatas = {
-    id: id,
-    sol: sol,
-    camera: camera,
-    src: src,
-    date: date,
-    rover: rover,
+  return {
+    _id: photoObject.id,
+    sol: photoObject.sol,
+    camera: photoObject.camera,
+    src: photoObject.img_src,
+    date: photoObject.earth_date,
+    rover: photoObject.rover,
   };
-  console.log(pDatas);
 }
 
 parseData();
