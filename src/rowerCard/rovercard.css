@@ -24,7 +24,7 @@
 }
 .container .card{
     position: relative;
-    width:330px;
+    width:300px;
     height:450px;
     margin:30px;
     box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
@@ -54,7 +54,7 @@
 .container .card.Perseverance{
     background-image: url("../image/Perseverance_rover.jpg");
  background-size: 100% 100%;
- width: 400px;
+ width: 300px;
   
 }
 .container .card .content{
