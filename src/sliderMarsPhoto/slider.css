@@ -4,8 +4,6 @@
             padding: 0;
         }
         .slider{
-            background-repeat: no-repeat;
-            background-size: cover; 
              height: 670px; 
         }
         ::-webkit-scrollbar {
@@ -25,7 +23,7 @@
             height: 100%;
             text-align: center;
             font: 400 100% 'Raleway', 'Lato';
-            background-color: #282828;
+            background-image: url("../image/background.jpg");
             color: #CCC;
         }
 

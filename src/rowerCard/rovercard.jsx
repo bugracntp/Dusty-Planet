@@ -5,7 +5,6 @@ import VanillaTilt from 'vanilla-tilt';
 
 const element= document.querySelectorAll(".card") 
 VanillaTilt.init(element, {
-
                 max: 25,
                 speed: 400,
                 glare: true,
@@ -14,7 +13,7 @@ VanillaTilt.init(element, {
 export default function Rovercard() {
   return (
     
-    <div className="rower">
+    <div className="rover">
          
        <div className="container">
         <div className="card Curiosity">

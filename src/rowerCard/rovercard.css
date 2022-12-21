@@ -6,20 +6,19 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.rower{
+.rover{
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background:#161623;
+    background-image: url("../image/background.jpg");
 }
 .container{
     position:relative;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    max-width: 1200px;
-    flex-wrap: wrap;
+    max-width: auto;
     z-index: 1;
 }
 .container .card{
