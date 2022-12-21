@@ -1,21 +1,21 @@
 body {
   margin: 0%;
   padding: 0%;
-  background-image: url("./image/arkaPlan1.jpg");
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 760px;
-  background-size: cover;
-  overflow: hidden;
+ 
+  /* overflow: hidden;  */
   
 }
 .grid-container {
   display: grid;
   grid-template-columns: 50% 50%;
-  height: 760px;
+   height: 650px; 
+  background-image: url("./image/background.jpg");
+  background-repeat: no-repeat;
+   background-size: cover; 
 }
 .grid-item {
   padding: 20px;
   font-size: 40px;
   align-items: center;
 }
+
