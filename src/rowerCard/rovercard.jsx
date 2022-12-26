@@ -11,8 +11,7 @@ VanillaTilt.init(document.querySelectorAll(".card") , {
                 "max-glare": 1,
             });
 export default function Rovercard() {
-  return (
-    
+  return ( 
     <div className="rover">
        <div className="container">
        <div className="card Curiosity">
