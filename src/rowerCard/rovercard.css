@@ -16,7 +16,7 @@
 .container{
     position:relative;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     max-width: auto;
     z-index: 1;
@@ -78,7 +78,7 @@
 }
 .container .card .content p{
     background-color: #161623;
-    font-size: 1.4em;
+    font-size: 1.2em;
     color: blue;
     font-weight: 300;
 }

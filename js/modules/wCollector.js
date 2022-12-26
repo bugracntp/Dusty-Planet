@@ -5,11 +5,13 @@ let weathers = [];
 let saveData = async () => {
   let { data } = await MarsWeatherApi();
   await Promise.all(
+    // eslint-disable-next-line array-callback-return
     await data.soles.map((item) => {
       weathers.push(loaddata(item));
     })
   );
-  insertIntoMongoDB(weathers,"weather")
+  
+  insertIntoMongoDB(weathers,"weathers");
 };
 
 function loaddata(solObject) {
@@ -76,7 +78,5 @@ function loaddata(solObject) {
 }
 
 saveData();
-
-
 
 /**/
