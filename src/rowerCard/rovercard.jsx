@@ -3,8 +3,8 @@ import"./rovercard.css"
 import VanillaTilt from 'vanilla-tilt';
 
 
-const element= document.querySelectorAll(".card") 
-VanillaTilt.init(element, {
+
+VanillaTilt.init(document.querySelectorAll(".card") , {
                 max: 25,
                 speed: 400,
                 glare: true,
