@@ -7,18 +7,18 @@ import { useEffect } from "react";
 let link = "http://localhost:5000/rovers";
 
 export default function Rovercard() {
-  let [weathers, setweathers] = useState([]);
-  async function getweathers() {
+  let [rovers, setrovers] = useState([]);
+  async function getrovers() {
     let { data } = await axios.get(link);
-    setweathers(data);
+    setrovers(data);
   }
   useEffect(() => {
-    getweathers();
+    getrovers();
   }, []);
   return (
     <div className="rover">
       <div className="container">
-        {weathers && weathers.map((item) => (
+        {rovers && rovers.map((item) => (
             <div className="card" style={{ backgroundImage: `url(${item.rover_img})` }}>
                 <div className="content">
                   <h3>{item.name}</h3>

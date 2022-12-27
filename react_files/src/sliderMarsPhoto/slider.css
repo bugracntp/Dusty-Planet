@@ -21,6 +21,7 @@ body{
   position: relative;
   width: 400%;
   left: 0;
+  display: flex;
 animation: 16s slayt infinite;
 }
 .galeri img{

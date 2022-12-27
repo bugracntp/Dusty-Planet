@@ -7,7 +7,7 @@ import { useEffect } from "react";
 let link = "http://localhost:5000/weathers";
 
 export default function Info() {
-  let [item, setRovers] = useState([]);
+  let [currentWeather, setRovers] = useState([]);
   async function getRovers() {
     let { data } = await axios.get(link);
     setRovers(data[0]);
@@ -18,22 +18,22 @@ export default function Info() {
   return (
     <div className="mars-current-weather">
       <h1 className="main-title">MARS HAVA DURUMU</h1>
-      {item && (
+      {currentWeather && (
           <>
             <div className="date">
               <h2 className="section-title section-title--date">
-                SOL {item.Sol}
+                SOL {currentWeather.Sol}
               </h2>
-              <p className="date__day">{item.date}</p>
+              <p className="date__day">{currentWeather.date}</p>
             </div>
             <div className="temp">
               <h2 className="section-title">SICAKLIK</h2>
-              <p className="reading">Yüksek: {item.highC}</p>
-              <p className="reading">Düşük: {item.lowC}</p>
+              <p className="reading">Yüksek: {currentWeather.highC}</p>
+              <p className="reading">Düşük: {currentWeather.lowC}</p>
             </div>
             <div className="pressure">
               <h2 className="section-title">Basınç</h2>
-              <p className="reading">{item.per} hPa</p>
+              <p className="reading">{currentWeather.per} hPa</p>
             </div>
           </>
         )}
