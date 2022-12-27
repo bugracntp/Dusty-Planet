@@ -1,4 +1,4 @@
-const { MarsWeatherApi } = require("../modules/api_urls");
+const { MarsWeatherApi } = require("./api_urls");
 const { insertIntoMongoDB } = require("../database/database");
 
 let weathers = [];

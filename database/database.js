@@ -26,31 +26,4 @@ function insertIntoMongoDB(data, collectionName) {
     });
   });
 }
-const getValuesMongoDB = function () {
-  return new Promise((resolve, reject) => {
-    const mongoClient = new MongoClient(uri, { useNewUrlParser: true });
-    mongoClient.connect((err) => {
-      if (err) {
-        mongoClient.close();
-        return reject(err);
-      }
-      const db = mongoClient.db("MarsWeather");
-      db.collection("rovers")
-        .find()
-        .toArray((err, result) => {
-          mongoClient.close();
-          if (err) return reject(err);
-          resolve(result);
-        });
-    });
-  });
-};
-
-getValuesMongoDB()
-  .then((result) => {
-    console.log(result);
-  })
-  .catch((err) => {
-    // handle the error
-  });
 module.exports = { insertIntoMongoDB };
