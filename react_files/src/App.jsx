@@ -1,9 +1,17 @@
 import "./App.css";
-import MarsAnimation from "./marsAnimation/marsAnimation";
+// import MarsAnimation from "./marsAnimation/marsAnimation";
 import Slider from "./sliderMarsPhoto/slider";
 import Info from "./info_card/info";
 import Rovercard from "./rowerCard/rovercard";
+import { Planet } from "./MarsThree/Planet";
+import styled from "styled-components";
+import { Canvas } from "@react-three/fiber";
+import { Suspense } from "react";
 
+const CanvasContainer = styled.div`
+  width: 100%;
+  height: 100%;
+`;
 function App() {
   return (
     <div className="App">
@@ -12,7 +20,13 @@ function App() {
           <Info />
         </div>
         <div className="grid-item">
-          <MarsAnimation />
+        <CanvasContainer>
+      <Canvas>
+        <Suspense fallback={null}>
+          <Planet/>
+        </Suspense>
+      </Canvas>
+    </CanvasContainer>
         </div>
       </div>
       <div className="slider-container">
