@@ -39,6 +39,7 @@ export default function Info() {
       )}
 
       <div className="info">
+        <h1>haftalık hava durumu</h1>
         <ul>
           <li>
             <h3>pazartesi</h3>

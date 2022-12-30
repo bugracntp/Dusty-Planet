@@ -35,7 +35,7 @@
 h1, h2, h3 {
   line-height: 1;
   color: white;
- 
+ margin-bottom: 8px;
 }
 .main-title {
     font-size: var(--fs-h1);

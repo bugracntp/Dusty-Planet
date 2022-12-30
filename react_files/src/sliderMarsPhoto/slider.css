@@ -10,8 +10,8 @@ body{
 }
 
 .Cerceve{
-  width: 70%;
-   overflow: hidden;
+  width: 100%;
+    overflow: hidden; 
 
   box-sizing: border-box;
 }
@@ -29,11 +29,23 @@ animation: 16s slayt infinite;
 }
 @keyframes slayt {
   0%{left: 0%;}
-  20%{left: 0%;}
-  25%{left: -100%;}
-  45%{left: -100%;}
-  50%{left: -200%;}
-  70%{left: -200%;}
-  75%{left: -300%;}
-  90%{left: -300%;}
+  5%{left: 0%;}
+  10%{left: -100%;}
+  15%{left: -100%;}
+  20%{left: -200%;}
+  25%{left: -200%;}
+  30%{left: -300%;}
+  35%{left: -300%;}
+  40%{left: -400%;}
+  45%{left: -400%;}
+  50%{left: -500%;}
+  55%{left: -500%;}
+  60%{left: -600%;}
+  65%{left: -600%;}
+  70%{left: -700%;}
+  75%{left: -700%;}
+  80%{left: -800%;}
+  85%{left: -800%;}
+  90%{left: -900%;}
+  
 }
