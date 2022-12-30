@@ -17,13 +17,13 @@ body{
 }
 .galeri{
   position: relative;
-  width: 400%;
+  width: auto;
   left: 0;
   display: flex;
-animation: 16s slayt infinite;
+animation: 180s slayt infinite;
 }
 .galeri img{
-  width: 40%;
+  width: 90%;
   float: left;
   height: 500px;
 }
@@ -31,21 +31,21 @@ animation: 16s slayt infinite;
   0%{left: 0%;}
   5%{left: 0%;}
   10%{left: -100%;}
-  15%{left: -100%;}
-  20%{left: -200%;}
-  25%{left: -200%;}
-  30%{left: -300%;}
-  35%{left: -300%;}
-  40%{left: -400%;}
-  45%{left: -400%;}
-  50%{left: -500%;}
-  55%{left: -500%;}
-  60%{left: -600%;}
-  65%{left: -600%;}
-  70%{left: -700%;}
-  75%{left: -700%;}
-  80%{left: -800%;}
-  85%{left: -800%;}
-  90%{left: -900%;}
+  15%{left: -200%;}
+  20%{left: -300%;}
+  25%{left: -400%;}
+  30%{left: -500%;}
+  35%{left: -600%;}
+  40%{left: -700%;}
+  45%{left: -800%;}
+  50%{left: -900%;}
+  55%{left: -1000%;}
+  60%{left: -1100%;}
+  65%{left: -1200%;}
+  70%{left: -1300%;}
+  75%{left: -1400%;}
+  80%{left: -1500%;}
+  85%{left: -1600%;}
+  90%{left: -1700%;}
   
 }
