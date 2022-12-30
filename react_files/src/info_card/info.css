@@ -11,7 +11,7 @@
     --fw-semi: 500;
     --fw-bold: 700;
     --fs-h1: 1rem;
-    --fs-h2: 0.75rem;
+    --fs-h2: 0.50rem;
     --fs-body: 1.0rem;
     --fs-xl: 1.75rem;
     --clr-light: #fff;
@@ -44,8 +44,11 @@ h1, h2, h3 {
     color: var(--clr-accent);
     letter-spacing: 4px;
 font-size: 25px;
-    grid-column: 1 / -1;
-    
+grid-column: 1 / -1;
+
+  }
+  p{
+    font-size: 18px;
   }
   .section-title {
     font-size: var(--fs-h2);
@@ -63,38 +66,69 @@ font-size: 25px;
     padding:15px ;
     margin-top: 55px;
   margin-left:20px ;
-    max-width: 500px;
+    max-width:700px;
     height:500px ;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-gap: 2em;
+    display: grid;     
+    
+    grid-template-columns:auto auto auto;
+    grid-gap: 1.em;
     
 }
 .date{
 grid-column: 1 / 2;
 color: wheat;
-margin-bottom: -100px;
+margin-top: 40px;
+height:50px;
 }
 .temp{
     grid-column: 2/2;
     color: wheat;
+   margin-bottom: 90px;
+   height:50px;
    
 }
 .pressure{
     grid-column: 3 / 4;
     color: wheat;
+    margin-bottom: 90px;
+    height:50px;
+   
 }
 
 .info{
     grid-column: 1 /4;
     color: wheat;
     font-size: 15px;
+    text-align: center;
+
 }
-.unit-toggle{
-    grid-column: 3 / 4;
-    color: wheat;
-}
+
+
 .reading{
     font-size: 14px;
 
+}
+.info ul{
+  border: 1px solid #ddd;
+  list-style-type:none;
+}
+.info li{
+  float: left;
+  margin: 10px;
+  position: relative;
+  font-size: 13px;
+  color: white;
+  border-right:1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+
+ 
+}
+.info li p {
+  line-height: 1em;
+    font-size:16px;
+    font-weight: 400;
+    margin:0;
+    padding-top: .9em;
+    padding-bottom: .5em;
+    color: white;
 }

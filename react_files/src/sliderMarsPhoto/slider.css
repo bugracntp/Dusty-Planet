@@ -7,14 +7,12 @@ body{
   justify-content: center;
   align-items: center;
   
-  
-
 }
 
 .Cerceve{
   width: 70%;
-   overflow: hidden ; 
- 
+   overflow: hidden;
+
   box-sizing: border-box;
 }
 .galeri{
@@ -25,7 +23,7 @@ body{
 animation: 16s slayt infinite;
 }
 .galeri img{
-  width: 25%;
+  width: 40%;
   float: left;
   height: 500px;
 }

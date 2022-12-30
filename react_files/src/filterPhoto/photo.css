@@ -1,0 +1,41 @@
+body {
+    background-color: #302F2C;
+    font-family: 'Alegreya Sans SC',sans-serif;
+    font-size: 20px;
+    color: #E8E4C2;
+    cursor: auto;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    position: relative;
+	
+}
+.title{
+    text-align: center;
+}
+
+.Rover-Name{
+    font-size: 18px;
+    margin-left: 140px;
+
+}
+.filtering{
+	margin-top: 70px;
+    text-align: center;
+}
+.photoarea {
+    
+    margin: 30px;
+    margin-left: 350px;
+  
+    width: 600px;
+    height: 600px;
+}
+
+
+
+
+
+
