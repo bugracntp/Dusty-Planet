@@ -6,7 +6,7 @@
   
   width: 97%;
     overflow: hidden; 
-height: 80vh;
+height: 70vh;
   box-sizing: border-box;
 
 margin: 30px;
@@ -23,7 +23,7 @@ animation: 330s slayt infinite;
 .galeri img{
   width: 100%;
   float: left;
-  height: 100vh;
+  height: 70vh;
   object-fit: fill;
 }
  @keyframes slayt {

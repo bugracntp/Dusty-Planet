@@ -1,5 +1,5 @@
 body {
-    background-color: #302F2C;
+    background-image: url(../image/background.jpg);
     font-family: 'Alegreya Sans SC',sans-serif;
     font-size: 20px;
     color: #E8E4C2;
@@ -42,7 +42,7 @@ input{
    
 }
 button{
-    background-color: gray;
+    background-color: yellow;
  
    border-radius: 5px;
 }
