@@ -20,7 +20,11 @@ body {
 .Rover-Name{
     font-size: 18px;
     margin-left: 140px;
+    
 
+}
+.Rover-Name h1{
+    color: yellow;
 }
 .filtering{
 	margin: 70px;

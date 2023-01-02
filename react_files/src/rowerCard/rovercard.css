@@ -55,14 +55,14 @@
 .container .card .content h3{
     text-align: center;
     background-image:url("../image/background.jpg") ;
-    font-size: 2.4em;
+    font-size: 2.3em;
     color: white;
     z-index:1;
 
 }
 .container .card .content p{
     background-image:url("../image/background.jpg") ;
-    font-size: 1.2em;
+    font-size: 1.1em;
     color: white;
     font-weight: 300;
 }

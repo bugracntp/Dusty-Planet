@@ -79,20 +79,20 @@ grid-column: 1 / -1;
 .date{
 grid-column: 1 / 2;
 color: wheat;
-margin-top: 40px;
+margin-top: 50px;
 height:50px;
 }
 .temp{
     grid-column: 2/2;
     color: wheat;
-   margin-bottom: 90px;
+   margin-bottom: 70px;
    height:50px;
    
 }
 .pressure{
     grid-column: 3 / 4;
     color: wheat;
-    margin-bottom: 90px;
+    margin-bottom: 70px;
     height:50px;
    
 }
@@ -123,9 +123,9 @@ ul li{
 .baslık{
   color: white;  }
 ul li p {
-  line-height: 1em;
+  line-height: 0.90em;
     font-size:16px;
-    font-weight: 400;
+    font-weight: 300;
     margin:0;
     padding-top: .9em;
     padding-bottom: .5em;

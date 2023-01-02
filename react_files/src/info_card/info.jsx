@@ -50,6 +50,7 @@ export default function Info() {
            <ul >
             <li>
               <h2 className="baslık">{item.Sol}</h2>
+              <p>{item.date}</p>
               <p className="hot">Sıcaklık</p>
               <p>max : {item.highC}</p>
               <p>min : {item.lowC}</p>
