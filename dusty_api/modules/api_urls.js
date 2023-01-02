@@ -10,13 +10,10 @@ const MarsWeatherApi = async function() {
   );
 };
 const MarsRoverApi = async (endpoint) => {
-  return await axios(`${MARS_PHOTOS_API_URL}rovers/${endpoint}`);
+  return await axios.get(`${MARS_PHOTOS_API_URL}rovers/${endpoint}`);
 };
 const MarsLastPhotosApi = async function() {
-  return await axios(`${MARS_PHOTOS_API_URL}rovers/curiosity/latest_photos`);
-};
-const MarsNewPhotosApi = async (endpoint1, endpoint2) => {
-  return await axios(`${MARS_PHOTOS_API_URL}rovers/${endpoint1}/photos?sol=${endpoint2}`  );
+  return await axios.get(`${MARS_PHOTOS_API_URL}rovers/curiosity/latest_photos`);
 };
 
 

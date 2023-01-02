@@ -36,6 +36,7 @@ h1, h2, h3 {
   line-height: 1;
   color: white;
  margin-bottom: 8px;
+ margin: 20px;
 }
 .main-title {
     font-size: var(--fs-h1);
@@ -46,9 +47,11 @@ h1, h2, h3 {
 font-size: 25px;
 grid-column: 1 / -1;
 
+
   }
   p{
     font-size: 18px;
+    
   }
   .section-title {
     font-size: var(--fs-h2);
@@ -62,14 +65,13 @@ grid-column: 1 / -1;
 }
 
 .mars-current-weather{
-    background-color: rgba(131, 92, 65, 0.7);
+   
     padding:15px ;
     margin-top: 55px;
   margin-left:20px ;
     max-width:700px;
     height:500px ;
     display: grid;     
-    
     grid-template-columns:auto auto auto;
     grid-gap: 1.em;
     
@@ -95,24 +97,18 @@ height:50px;
    
 }
 
-.info{
-    grid-column: 1 /4;
-    color: wheat;
-    font-size: 15px;
-    text-align: center;
-
-}
 
 
 .reading{
     font-size: 14px;
 
 }
-.info ul{
-  border: 1px solid #ddd;
+
+ul{
+ color: white;
   list-style-type:none;
 }
-.info li{
+ul li{
   float: left;
   margin: 10px;
   position: relative;
@@ -121,9 +117,12 @@ height:50px;
   border-right:1px solid #ddd;
   border-bottom: 1px solid #ddd;
 
+
  
 }
-.info li p {
+.baslık{
+  color: white;  }
+ul li p {
   line-height: 1em;
     font-size:16px;
     font-weight: 400;

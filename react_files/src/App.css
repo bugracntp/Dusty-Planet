@@ -1,25 +1,11 @@
 body {
   margin: 0%;
   padding: 0%;
- 
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
 
-  
-}
-.grid-container {
-  display: grid;
-  grid-template-columns: 50% 50%;
-   height: 650px; 
-  background-image: url("./image/background.jpg");
-  background-repeat: no-repeat;
-   background-size: cover; 
-}
-.grid-item {
-  padding: 20px;
-  font-size: 40px;
-  align-items: center;
-}
-.slider-container{
-  margin-right: 10px;
-  margin-left: 10px;
-}
 

@@ -4,6 +4,7 @@
    padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    
 }
 
 .rover{
@@ -20,15 +21,16 @@
     align-items: center;
     max-width: auto;
     z-index: 1;
+    
 }
 .container .card{
     position: relative;
-    width:300px;
+    width:340px;
     height:450px;
     margin:30px;
     box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
     border-radius: 15px;
-    background: rgba(255, 255, 255, 0.1);
+   
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -40,7 +42,7 @@
     
 }
 .container .card .content{
-    transform: translateY(100px);
+    transform: translateX(-100px);
     opacity: 0;
     transition: 0.5s;
 }
@@ -52,16 +54,16 @@
 
 .container .card .content h3{
     text-align: center;
-    background-color: #161623;
-    font-size: 2.3em;
-    color: blue;
+    background-image:url("../image/background.jpg") ;
+    font-size: 2.4em;
+    color: white;
     z-index:1;
 
 }
 .container .card .content p{
-    background-color: #161623;
+    background-image:url("../image/background.jpg") ;
     font-size: 1.2em;
-    color: blue;
+    color: white;
     font-weight: 300;
 }
 

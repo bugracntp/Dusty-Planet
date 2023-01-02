@@ -1,0 +1,17 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+     height: 750px; 
+    background-image: url("../image/background.jpg");
+    background-repeat: no-repeat;
+     background-size: cover; 
+  }
+  .grid-item {
+    padding: 20px;
+    font-size: 40px;
+    align-items: center;
+  }
+  .app{
+    background-image: url("../image/background.jpg");
+  }
+  

@@ -1,8 +1,7 @@
-const { MarsNewPhotosApi } = require("../modules/api_urls");
-const { insertIntoMongoDB } = require("../database/database");
+const axios = require('axios');
 
 async function parseData(rover, sol) {
-  let { data } = await MarsNewPhotosApi(rover, sol);
+  let { data } = await axios.get(`https://mars-photos.herokuapp.com/api/v1/rovers/${rover}/photos?sol=${sol}`);
   await Promise.all(
     await data.photos.map((item) => {
       insertIntoMongoDB(loadData(item), "new_photos");

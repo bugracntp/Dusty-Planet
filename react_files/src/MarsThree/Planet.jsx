@@ -28,14 +28,14 @@ export function Planet(props) {
     <>
       {/* <ambientLight intensity={1} /> */}
       <pointLight color="#f6f3ea" position={[1, 0, 5]} intensity={1.2} />
-      <Stars
+      {/* <Stars
         radius={300}
         depth={60}
         count={15000}
         factor={7}
         saturation={0}
         fade={true}
-      />
+      /> */}
       <mesh ref={cloudsRef} position={[0, 0, 3]}>
         <sphereGeometry args={[1.005, 32, 32]} />
         <meshPhongMaterial

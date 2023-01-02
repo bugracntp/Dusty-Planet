@@ -1,42 +1,15 @@
-import "./App.css";
-// import MarsAnimation from "./marsAnimation/marsAnimation";
-import Slider from "./sliderMarsPhoto/slider";
-import Info from "./info_card/info";
-import Rovercard from "./rowerCard/rovercard";
-import { Planet } from "./MarsThree/Planet";
-import styled from "styled-components";
-import { Canvas } from "@react-three/fiber";
-import { Suspense } from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import HomePage from "./routes/home";
+import PhotoDetailPage from "./routes/photoDetail";
 
-const CanvasContainer = styled.div`
-  width: 100%;
-  height: 100%;
-`;
 function App() {
   return (
-    <div className="App">
-      <div className="grid-container">
-        <div className="grid-item">
-          <Info />
-        </div>
-        <div className="grid-item">
-        <CanvasContainer>
-      <Canvas>
-        <Suspense fallback={null}>
-          <Planet/>
-        </Suspense>
-      </Canvas>
-    </CanvasContainer>
-        </div>
-      </div>
-      <div className="slider-container">
-        <Slider />
-      </div>
-      <div className="card-container">
-       
-        <Rovercard/>
-      </div>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<HomePage/>} />
+        <Route path="/photo/:rovername" element={<PhotoDetailPage/>} />
+      </Routes>
+    </Router>
   );
 }
 

@@ -10,6 +10,7 @@ body {
     margin: 0;
     padding: 0;
     position: relative;
+   
 	
 }
 .title{
@@ -22,16 +23,37 @@ body {
 
 }
 .filtering{
-	margin-top: 70px;
+	margin: 70px;
     text-align: center;
+ 
+}
+.Tarih{
+    color: red;
+    margin-top:50px;
+    font-size: 20px;
+   
+}
+input{
+    margin: 10px; 
+   
+}
+button{
+    background-color: gray;
+ 
+   border-radius: 5px;
 }
 .photoarea {
     
     margin: 30px;
     margin-left: 350px;
-  
+  text-align: center;
     width: 600px;
     height: 600px;
+}
+.photoarea img{
+    object-fit: fill;
+    width: 900px;
+    height:600px;
 }
 
 

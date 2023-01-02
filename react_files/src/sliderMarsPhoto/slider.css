@@ -1,51 +1,36 @@
-body{
-  background-image: url("../image/background.jpg");
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+
   
-}
+
 
 .Cerceve{
-  width: 100%;
+  
+  width: 97%;
     overflow: hidden; 
-
+height: 80vh;
   box-sizing: border-box;
+
+margin: 30px;
+
 }
 .galeri{
   position: relative;
   width: auto;
   left: 0;
   display: flex;
-animation: 180s slayt infinite;
+animation: 330s slayt infinite;
+
 }
 .galeri img{
-  width: 90%;
+  width: 100%;
   float: left;
-  height: 500px;
+  height: 100vh;
+  object-fit: fill;
 }
-@keyframes slayt {
-  0%{left: 0%;}
-  5%{left: 0%;}
-  10%{left: -100%;}
-  15%{left: -200%;}
-  20%{left: -300%;}
-  25%{left: -400%;}
-  30%{left: -500%;}
-  35%{left: -600%;}
-  40%{left: -700%;}
-  45%{left: -800%;}
-  50%{left: -900%;}
-  55%{left: -1000%;}
-  60%{left: -1100%;}
-  65%{left: -1200%;}
-  70%{left: -1300%;}
-  75%{left: -1400%;}
-  80%{left: -1500%;}
-  85%{left: -1600%;}
-  90%{left: -1700%;}
-  
-}
+ @keyframes slayt {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-10000%);
+  }
+} 
