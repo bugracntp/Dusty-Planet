@@ -1,4 +1,10 @@
+# Web sitemizin görünümü
+
+https://user-images.githubusercontent.com/66384957/212542191-c26c21e9-381f-4ca1-a77d-cc79e8d75ddf.mp4
+
+
 # Veritabanı anlık veri durumu.
+
 ![image](https://user-images.githubusercontent.com/66384957/206995309-a9eae019-81cd-4352-8fe5-d9698915b690.png)
 - Fotoğraflar 12/12/2022 tarihi intibari ile yüklenmeye başlanmıştır. Günlük olarak güncellenecektir.
 
